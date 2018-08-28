@@ -1,0 +1,337 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-image: url(../img/pGj8ODp1voM.jpg); /* Путь к фоновому изображению */
+    background-color: #c7b39b; /* Цвет фона */
+}
+
+.top-line{
+    height: 5%;
+    width: 100%;
+    background-color: #161a23;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.menu-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 65%;
+    height: 100%;
+    color: #b7b6b6;
+    font-size: 16px;
+}
+
+.menu-list li{
+    cursor: pointer;
+    padding: 10px;
+    transition: .2s;
+    border: 0px solid white;
+    border-radius: 30px;
+}
+
+.menu-list li:hover{
+    padding: 7px;
+    color: white;
+    border: 3px solid white;
+    border-radius: 30px;
+    transition: .2s;
+}
+
+/*  ------------------*/
+.logo{
+    color: white;
+}
+/*  ------------------*/
+
+.sign_in{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.sign_in p{
+    color: #b7b6b6;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+    transition: .2s;
+    border: 0px solid white;
+    border-radius: 30px;
+    margin-right: 15%;
+}
+
+.sign_in p:hover{
+    color: white;
+    padding: 7px;
+    color: white;
+    border: 3px solid white;
+    border-radius: 30px;
+    transition: .2s;
+}
+
+.auth form input{
+    background-color: #EEEEEC;
+    border: 3px solid #adadad;
+    border-radius: 7px;
+    outline: 0 !important;
+    margin-bottom: 4px;
+
+}
+.auth form button {
+    background-color: #3063e2;
+    border: 0px;
+    border-radius: 35px;
+    width: 60px;
+    height: 25px;
+    outline: 0 !important;
+    cursor: pointer;
+}
+
+.auth form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.auth{
+    position: absolute;
+    top: 5%;
+    right: 8%;
+}
+#r{
+    width: 130px;
+    height: 130px;
+    cursor: pointer;
+}
+
+#r:hover{
+    fill: #ff4c4c;
+}
+
+.variant{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.variant div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 70px;
+}
+
+.variant div p{
+    font-family: cursive;
+}
+
+.form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form form{
+    width: 60%;
+}
+
+#glad{
+    padding: 50px;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+#registr p{
+    font-family: cursive;
+    padding: 3px;
+    width: 100%;
+}
+
+#registr input{
+    width: 100%;
+    border-radius: 10px;
+    height: 35px;
+    font-size: 22px;
+    outline: 0 !important;
+}
+#registr select{
+    width: 100%;
+    border-radius: 10px;
+    height: 35px;
+    font-size: 22px;
+    outline: 0 !important;
+}
+
+#registr button{
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid #2353ff;
+    border-radius: 35px;
+    width: 220px;
+    height: 47px;
+    font-size: 20px;
+    font-family: cursive;
+    margin-left: 40%;
+    cursor: pointer;
+    outline: 0 !important;
+}
+
+.logo img{
+    width: 146px;
+}
+
+.blocks_tour{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blocks_tour p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 5%;
+    margin-bottom: 10px;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+}
+
+.block{
+    margin-top: 40px;
+    border: 3px solid #e8e8e6;
+    width: 654px;
+    height: 600px;
+    transition: .5s;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 1px -1px 15px 0px black;
+}
+
+.block:hover{
+    transition: .5s;
+    box-shadow: 1px -7px 14px 2px black;
+}
+
+.left{
+    height: 100%;
+    width: 70%;
+}
+.right{
+    height: 100%;
+    width: 30%;
+    background-color: #e8e8d5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+.block p{
+    margin-top: 1px;
+    margin-left: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.phone-numbers p{
+    margin-top: 2px;
+}
+.cost p{
+    font-size: 30px;
+    font-family: cursive;
+    color: red;
+}
+
+.cost p:hover{
+    color: blue;
+}
+
+.text-content{
+    font-size: 14px !important;
+    font-family: cursive;
+    width: 100%;
+    height: 65%;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    margin-left: 13px !important;
+    align-items: center !important;
+}
+
+.tours_firm{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.block_firm{
+    width:40%;
+    height: 250px;
+    border: 2px solid darkgray;
+    display: flex;
+    flex-direction: row;
+}
+
+.imgs img{
+    width: 368px;
+    height: 250px;
+    border-radius: 30px 30px;
+}
+
+.name_firm{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 23px;
+    font-family: cursive;
+}
+
+.right_block_firm{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.firm_information{
+    width: 85%;
+    height: 74%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
